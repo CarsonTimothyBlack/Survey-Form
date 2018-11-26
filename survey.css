@@ -1,0 +1,56 @@
+body {
+      background-color: #1465EA;
+  padding: 100px;
+  margin: 0 auto;
+}
+
+#text,
+#name,
+#email,
+#number{
+  width: 100%;
+}
+
+#basic,
+#powers{
+  width: 40%;
+  border: solid 10px #EEF900;
+  display: inline;
+}
+
+#body1 {
+  background-color: #F87F77;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 30px;
+  border: solid 10px black;
+  margin: 0 auto;
+}
+
+#title {
+  color: #EEF900;
+  font-family: Comic Sans MS;
+  font-size: 50px;
+  padding: 0 20%;
+  text-shadow: 3px 4px black
+}
+
+#description {
+  font-size: 20px;
+  padding: 0 25%;
+}
+
+#submit {
+  font-size: 20px;
+  background-color: #1465EA;
+  color: #EEF900;
+  border: solid 5px black;
+  border-radius: 5px;
+  width: 170px;
+  font-family: Comic Sans MS;
+}
+.basic1,
+.powers1{
+  margin: 10px 0;
+}
+
