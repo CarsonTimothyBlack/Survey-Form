@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Survey</title>
+    <link href='survey.css' type='text/css' rel='stylesheet' />
+  </head>
+  <body>
+    <div id='body1'>
+      <h1 id='title'>The Super Survey</h1>
+      <p id='description'>Tell us how you're super duper!</p>
+      <form id='survey-form' action=''>
+        <fieldset id='basic'>
+          <legend class='hero'><h3>Basic Super Hero Information</h3></legend>
+          <div class='basic1'>
+            <label id='name-label' class='hero'>Super Name:</label>
+            <input id='name' type='text' name='name' placeholder='Enter your Super Hero name' required='required'/><br />
+          </div>
+          <div class='basic1'>
+            <label id='email-label' class='hero'>Email:</label>
+            <input id='email' type='email' name='email' placeholder='Enter your email' required='required' /><br />
+          </div>
+          <div class='basic1'>
+            <label id='number-label' class='hero'>Lives Saved:</label><br />
+            <input id='number' type='number' name='number' placeholder='Enter the number of lives you have saved' min='10' max='500' /><br />
+          </div>
+          <div class='basic1'>
+            <label id='label-dropdown' class='hero'>Why do you do it? Save lives, I mean?</label>
+              <select id='dropdown' name='motive'>
+                <option value='fame'>For the Fame</option>
+                <option value='thrill'>For the Thrill</option>
+                <option value='babes'>For the Babes</option>
+                <option value='hunks'>For the Hunks</option>
+                <option value='money'>For the Money</option>
+                <option value='right'>Because it's the right thing to do</option>
+                <option value='unsure'>Because, what else am I supposed to do?</option>
+              </select><br />
+          </div>
+        </fieldset>
+        <fieldset id='powers'>
+          <legend class='hero'><h3>Power & Weakness</h3></legend>
+          <div class='powers1'>
+            <label id='label-checkbox' class='hero'>What powers do you have?<br />
+              <input type='checkbox' name='power' value='flight' />Flight
+              <input type='checkbox' name='power' value='speed' />Super Speed
+              <input type='checkbox' name='power' value='strength' />Super Strength<br />
+              <input type='checkbox' name='power' value='toots' />Super Toots
+              <input type='checkbox' name='power' value='attractive' />Super Attractive
+              <input type='checkbox' name='power' value='read' />Fast Reader
+            </label><br />
+          </div>
+          <div class='powers1'>
+            <label id='label-radio1' class='hero'>What is your greatest weakness?<br />
+              <input type='radio' name='weak' value='cats' />Cats
+              <input type='radio' name='weak' value='bread' />Bread
+              <input type='radio' name='weak' value='neighbors' />Neighbors<br />
+              <input type='radio' name='weak' value='rude-people' />Rude People
+              <input type='radio' name='weak' value='fine-china' />Fine China
+              <input type='radio' name='weak' value='climate-change' />Climate Change
+            </label><br />
+          </div>
+          <div class='powers1'>
+            <label id='label-radio2' class='hero'>How do you defend against thais weakness?<br />
+              <input type='radio' name='shield' value='dogs' />Dogs
+              <input type='radio' name='shield' value='butter' />Butter
+              <input type='radio' name='shield' value='locks' />Door Locks<br />
+              <input type='radio' name='shield' value='smile' />Smile
+              <input type='radio' name='shield' value='bull' />Bull
+              <input type='radio' name='shield' value='republicans' />Republicans
+            </label>
+          </div>
+        </fieldset>
+        <p>Who is the most famous person you have saved? Briefly tell the story below.</p>
+        <textarea id='text' name='super-story' rows='10' placeholder='Please enter Super Story here...'></textarea>
+        <p>Please submit to be considered as a canditate to join the League of Incredibly Super People</p>
+        <input id='submit' type='submit' name='submit' value='Submit' />
+      </form>
+    </div>
+  </body>
+</html>
